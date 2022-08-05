@@ -6,6 +6,30 @@
   height: 40vmin;
   pointer-events: none;
 }
+input {
+  margin-top: 1rem;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 8px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
